@@ -21,7 +21,7 @@ input[type="checkbox"]:focus {
 
 .banner-1 {
   background-image: url("https://i.imgur.com/TA7JKwA.jpeg");
-  filter: brightness(0.9); /* Reduz o brilho para 70% */
+  filter: brightness(0.4); /* Reduz o brilho para 70% */
 }
 
 .banners {
