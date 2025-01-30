@@ -1,4 +1,4 @@
-document.querySelector('.botao-padrao').addEventListener('click', function() {
+document.querySelector('.btn').addEventListener('click', function() {
     console.log('Botão clicado!');  // Verifique se o clique é detectado
 
     // Obter os dados do formulário
