@@ -1,4 +1,4 @@
-document.querySelector('.btn btn-secondary').addEventListener('click', function() {
+document.querySelector('.botao').addEventListener('click', function() {
     // Obter os dados do formulário
     const nome = document.getElementById('floatingNome').value;
     const email = document.getElementById('floatingEmail').value;
