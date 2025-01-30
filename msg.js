@@ -16,6 +16,6 @@ document.querySelector('.btn').addEventListener('click', function() {
     // Codificar a mensagem para garantir que caracteres especiais sejam tratados corretamente
     const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
 
-    // Redirecionar para o WhatsApp
-    window.location.href = url;
+    // Redirecionar para o WhatsApp (abrindo em uma nova aba)
+    window.open(url, '_blank');
 });
