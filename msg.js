@@ -1,4 +1,6 @@
 document.querySelector('.botao-padrao').addEventListener('click', function() {
+    console.log('Botão clicado!');  // Verifique se o clique é detectado
+
     // Obter os dados do formulário
     const nome = document.getElementById('floatingNome').value;
     const email = document.getElementById('floatingEmail').value;
@@ -15,6 +17,7 @@ document.querySelector('.botao-padrao').addEventListener('click', function() {
 
     // Codificar a mensagem para garantir que caracteres especiais sejam tratados corretamente
     const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
+    console.log(url);  // Verifique a URL gerada
 
     // Redirecionar para o WhatsApp (abrindo em uma nova aba)
     window.open(url, '_blank');
