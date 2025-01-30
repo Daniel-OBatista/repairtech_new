@@ -12,7 +12,7 @@
     const mensagem = `*Formulário de Contato*\n\nNome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\nPreferência de Contato: ${preferencia}\nNível de Satisfação: ${satisfacao}\nReceber Novidades por Email: ${receberNovidades}`;
 
     // Substitua 'seunumerowhatsapp' pelo número do WhatsApp
-    const numeroWhatsApp = '+5516982620915';
+    const numeroWhatsApp = '5516982620915';
 
     // Codificar a mensagem para garantir que caracteres especiais sejam tratados corretamente
     const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
