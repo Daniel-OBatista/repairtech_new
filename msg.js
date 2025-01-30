@@ -1,5 +1,5 @@
-document.querySelector('.btn').addEventListener('click', function() {
-    console.log('Botão clicado!');  // Verifique se o clique é detectado
+document.querySelector('#whatsappButton').addEventListener('click', function() {
+    console.log('Botão WhatsApp clicado!');  // Verifique se o clique é detectado
 
     // Obter os dados do formulário
     const nome = document.getElementById('floatingNome').value;
