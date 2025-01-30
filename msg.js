@@ -1,5 +1,4 @@
-<script>
-  document.querySelector('.btn').addEventListener('click', function() {
+document.querySelector('.btn').addEventListener('click', function() {
     // Obter os dados do formulário
     const nome = document.getElementById('floatingNome').value;
     const email = document.getElementById('floatingEmail').value;
@@ -18,6 +17,5 @@
     const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
 
     // Redirecionar para o WhatsApp
-    window.open(url, '_blank');
-  });
-</script>
+    window.location.href = url;
+});
