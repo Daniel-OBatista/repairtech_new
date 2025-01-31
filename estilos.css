@@ -75,19 +75,19 @@ input[type="checkbox"]:focus {
 /* Estilos específicos para telas menores que 500px */
 @media (max-width: 500px) {
   .banners {
-    height: 100vh; /* Ajusta a altura para 60% da tela */
-    background-attachment: scroll; /* Desativa o fundo fixo, pois pode causar problemas em telas pequenas */
+    height: 80vh; /* Mantém a altura em 80% da tela */
+    background-attachment: fixed; /* Mantém o fundo fixo mesmo em telas pequenas */
   }
 
   .banner-1 {
-    background-size: contain; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
+    background-size: cover; /* Mantém a imagem de fundo cobrindo toda a área */
   }
 
   .banner-2 {
-    background-size: contain; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
+    background-size: cover; /* Mantém a imagem de fundo cobrindo toda a área */
   }
 
   .banner-3 {
-    background-size: contain; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
+    background-size: cover; /* Mantém a imagem de fundo cobrindo toda a área */
   }
 }
