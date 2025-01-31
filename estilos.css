@@ -19,10 +19,6 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 
-.banner-1 {
-  background-image: url(./img/banner_1.png);
-}
-
 .banners {
   width: 100vw;
   height: 100vh;
@@ -34,6 +30,10 @@ input[type="checkbox"]:focus {
 
 .banners-titulo {
   --bs-bg-opacity: .2;
+}
+
+.banner-1 {
+  background-image: url(./img/banner_1.png);
 }
 
 .banner-2{
@@ -69,5 +69,25 @@ input[type="checkbox"]:focus {
     --bs-offcanvas-color: white;
     --bs-body-color: white;
     --bs-body-color: white;
+  }
+}
+
+/* Estilos específicos para telas menores que 500px */
+@media (max-width: 500px) {
+  .banners {
+    height: 60vh; /* Ajusta a altura para 60% da tela */
+    background-attachment: scroll; /* Desativa o fundo fixo, pois pode causar problemas em telas pequenas */
+  }
+
+  .banner-1 {
+    background-size: contain; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
+  }
+
+  .banner-2 {
+    background-size: contain; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
+  }
+
+  .banner-3 {
+    background-size: contain; /* Ajusta a imagem para que ela se encaixe no tamanho da tela */
   }
 }
