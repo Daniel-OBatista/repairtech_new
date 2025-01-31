@@ -76,7 +76,7 @@ input[type="checkbox"]:focus {
 @media (max-width: 500px) {
 
   .banners {
-    height: 50vh; /* Ajusta a altura para 60% da tela */
+    height: 40vh; /* Ajusta a altura para 60% da tela */
     background-attachment: scroll; /* Desativa o fundo fixo, pois pode causar problemas em telas pequenas */
   }
 
