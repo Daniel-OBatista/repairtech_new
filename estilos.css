@@ -44,15 +44,6 @@ input[type="checkbox"]:focus {
   background-image: url(./img/banner_3.jpg);
 }
 
-.banners {
-  height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .banners-titulo {
     --bs-bg-opacity: .6;
 }
