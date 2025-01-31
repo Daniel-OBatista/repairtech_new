@@ -75,11 +75,6 @@ input[type="checkbox"]:focus {
 /* Estilos específicos para telas menores que 500px */
 @media (max-width: 500px) {
 
-  .banners-titulo {
-    --bs-bg-opacity: .5;
-    height: 50vh;
-  }
-
   .banners {
     height: 50vh; /* Ajusta a altura para 60% da tela */
     background-attachment: scroll; /* Desativa o fundo fixo, pois pode causar problemas em telas pequenas */
