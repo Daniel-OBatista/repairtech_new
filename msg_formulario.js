@@ -18,7 +18,7 @@ document.querySelector('#whatsappButton_enviar').addEventListener('click', funct
     `;
   
     // Converte a mensagem para a URL do WhatsApp
-    const numeroWhatsApp = '5516982620915'; // Insira o número do destinatário
+    const numeroWhatsApp = '5516991569687'; // Insira o número do destinatário
     const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
   
     // Abre o link no navegador (isso irá abrir o WhatsApp Web com a mensagem)

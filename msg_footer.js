@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const mensagem = `Olá, gostaria de mais informações.`;
 
         // Substitua 'seunumerowhatsapp' pelo número do WhatsApp
-        const numeroWhatsApp = '5516982620915';
+        const numeroWhatsApp = '5516991569687';
 
         // Codificar a mensagem para garantir que caracteres especiais sejam tratados corretamente
         const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
